@@ -4,7 +4,7 @@ export const DEFAULT_SYSTEM_PROMPT =
 export const SYSTEM_PROMPT_APPENDIX = `The user asks you to translate the text to a specific language, the language is provided via short code like "en", "fr", "de", etc.`;
 
 // Default LLM Settings
-export const DEFAULT_LLM_TEMPERATURE = 0.3;
+export const DEFAULT_LLM_TEMPERATURE = 1;
 export const DEFAULT_LLM_MODEL = 'gpt-4o';
 export const DEFAULT_LLM_BASE_URL = 'https://api.openai.com/v1';
 

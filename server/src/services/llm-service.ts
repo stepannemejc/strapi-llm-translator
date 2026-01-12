@@ -322,7 +322,7 @@ const buildSystemPrompt = async (userConfig: PluginUserConfig): Promise<string> 
 
 const createLLMRequest = (
   messages: Array<{ role: 'system' | 'user' | 'assistant'; content: string }>,
-  temperature = 0.1
+  temperature = 1
 ) => {
   return llmClient.chat.completions.create({
     model: LLM_MODEL,
